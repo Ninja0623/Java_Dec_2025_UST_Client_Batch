@@ -20,7 +20,7 @@ public class TypeCastingExample {
 		System.out.println("e "+e);
 		System.out.println("f "+f);
 		//float g = (float)100.10;	// explicit type casting 
-		float g = 100.12f;			// explicit type casting 
+		float g = 100.10f;			// explicit type casting 
 		int h = (int)g;		// explicit type casting 
 		System.out.println("g "+g);
 		System.out.println("h "+h);
