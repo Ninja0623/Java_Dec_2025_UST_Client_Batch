@@ -4,16 +4,31 @@ public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Main method");
-		System.out.println("--------------");
-		//start();
-		Car innova = new Car();
-		innova.start();
-		innova.stop();
-		System.out.println("----------------");
-		Car ertiga = new Car();
-		ertiga.start();
-		ertiga.stop();
+//		System.out.println("Main method");
+//		System.out.println("--------------");
+//		//start();
+//		Car innova = new Car();
+//		innova.start();
+//		innova.stop();
+//		System.out.println("----------------");
+//		Car ertiga = new Car();
+//		ertiga.start();
+//		ertiga.stop();
+		
+		Car innova = new Car();			// new memory created 
+			//innova.displayCarDetails();
+		innova.wheel=4;
+		innova.price=3500000;
+		//System.out.println("After set value for innova");
+		innova.colour="White";
+		innova.displayCarDetails("Innova");
+		System.out.println("------------------");
+		Car ertiga = new Car();			// new memory created 
+			//ertiga.displayCarDetails();
+		ertiga.wheel=4;
+		ertiga.price=1500000;
+		ertiga.colour="Gray";
+		ertiga.displayCarDetails("Ertiga");
 	}
 
 }

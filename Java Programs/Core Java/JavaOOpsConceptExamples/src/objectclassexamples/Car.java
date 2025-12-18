@@ -3,7 +3,7 @@ package objectclassexamples;
 public class Car {
 	int wheel;
 	float price;
-	String colour;
+	String colour;		// instance variable 
 	
 	void start() {
 		System.out.println("Car Started");
@@ -12,4 +12,12 @@ public class Car {
 		System.out.println("Car Stop");
 	}
 	
+	
+	void displayCarDetails(String cname) {
+		String msg="Car Details :";
+		System.out.println(msg+cname);
+		System.out.println("Wheel "+wheel);	//0
+		System.out.println("Price "+price);	//0.0
+		System.out.println("Colour "+colour);	// null
+	}
 }
