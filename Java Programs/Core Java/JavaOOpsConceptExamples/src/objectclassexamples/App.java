@@ -46,6 +46,7 @@ public class App {
 		
 		System.out.println("---------------");
 		Car santro = new Car(4,950000,"Red");		// call parameterized constructor 
+		//Car santro = new Car();
 		santro.displayCarDetails("Santro");
 		
 		System.out.println("---------------");
