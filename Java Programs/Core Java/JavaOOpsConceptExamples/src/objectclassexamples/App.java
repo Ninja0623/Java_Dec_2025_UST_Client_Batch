@@ -37,10 +37,24 @@ public class App {
 		innova.colour="White";
 		innova.displayCarDetails("innova");
 		
+		System.out.println("---------------");
 		Car ertiga = new Car();		// again constructor get called..
 		ertiga.price=1500000;
 		ertiga.colour="Gray";
 		ertiga.displayCarDetails("Ertiga");
+		
+		
+		System.out.println("---------------");
+		Car santro = new Car(4,950000,"Red");		// call parameterized constructor 
+		santro.displayCarDetails("Santro");
+		
+		System.out.println("---------------");
+		Car kia = new Car();
+		kia.setValue(4, 1350000, "White");
+		kia.displayCarDetails("Kia");
+		
+		kia.setValue(4, 1550000, "White");
+		kia.displayCarDetails("Kia");
 	}
 
 }
