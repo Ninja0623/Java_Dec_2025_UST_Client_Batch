@@ -3,10 +3,10 @@ package inheritance;
 public class EmployeeTest {
 
 	public static void main(String[] args) {
-	System.out.println("Employee class code");
-	Employee emp1 = new Employee();
-	emp1.readEmp();
-	emp1.disEmp();
+//	System.out.println("Employee class code");
+//	Employee emp1 = new Employee();
+//	emp1.readEmp();
+//	emp1.disEmp();
 	
 	System.out.println("----------------");
 	Manager mgr1 = new Manager();
