@@ -12,6 +12,7 @@ public class ThrowExample {
 		if(age<21) {
 			//throw new Exception();		throw generic exception 
 			throw new Exception("age must be >21");
+			//System.out.println("age must be >21");
 		}else {
 			System.out.println("You can Vote!");
 		}
