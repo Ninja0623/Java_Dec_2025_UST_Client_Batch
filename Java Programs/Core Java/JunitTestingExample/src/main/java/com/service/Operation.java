@@ -6,6 +6,7 @@ public class Operation {
 		int sum = x+y;
 		return sum;
 	}
+	
 	public int sub(int x, int y) {
 		int sub = x-y;
 		return sub;
