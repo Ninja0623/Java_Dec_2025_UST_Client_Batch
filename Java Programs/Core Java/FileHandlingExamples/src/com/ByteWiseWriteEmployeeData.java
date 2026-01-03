@@ -8,7 +8,7 @@ public class ByteWiseWriteEmployeeData {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);	// type of character class help to take the value through keyboards 
-		
+					
 		try {
 			File ff = new File("D:\\Employee.csv");	// to check the properties 
 				//FileOutputStream fos = new FileOutputStream(ff);	// write from begining or override the data.  
@@ -16,6 +16,7 @@ public class ByteWiseWriteEmployeeData {
 			if(ff.length()==0) {
 				String header = "Id,Name,Department,Salary\n";
 					byte headerByte[]=header.getBytes();	// converting string to byte array 
+					//char ch[]=header.toCharArray();
 					fos.write(headerByte);					// storing the data. 
 				System.out.println("Header created");
 			}else {
