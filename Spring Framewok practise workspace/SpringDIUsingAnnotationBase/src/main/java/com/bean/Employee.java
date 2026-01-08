@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component			// <bean class="com.bean.Employee"></bean>	by default class name in lower case ie camelNaming rule 	
 @Scope("prototype")
-public class Employee {		// employee if class two words then employeeDetails
+public class Employee {		// employee if class two words then employeeDetails(if my class name is EmployeeDetails)
 @Value(value = "123")
 private int id;
 private String name;
